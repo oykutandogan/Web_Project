@@ -1,4 +1,4 @@
-#React Kütüphane Uygulaması
+# React Kütüphane Uygulaması
 
 Bu proje, Web Programlama dersi kapsamında geliştirilmiş basit bir React tabanlı kütüphane yönetim sistemidir. Uygulama, kullanıcı (üye) yönetimi, kitap listesi ve kitap ödünç alma işlemlerini içermektedir.
 
@@ -12,7 +12,7 @@ Bu proje, Web Programlama dersi kapsamında geliştirilmiş basit bir React taba
 ✅ Basit ama şık bir tasarım için Bootstrap 5 kullanıldı
 Ana sayfa üzerinden kullanıcılar kitaplar ve ödünç listesine kolayca ulaşabilir:
 
-#Projeyi kendi bilgisayarında çalıştırmak için aşağıdaki adımları takip edebilirsin:
+# Projeyi kendi bilgisayarında çalıştırmak için aşağıdaki adımları takip edebilirsin:
 cd kutuphane-react
 
 --Gerekli paketleri yükle--
