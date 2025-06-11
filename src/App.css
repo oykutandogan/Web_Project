@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  background-color: #1e2228;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  width: 100%;
+  max-width: 900px;
+  background-color: #282c34;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  font-size: calc(12px + 1.8vmin);
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #21a1f1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Yeni eklemeler */
+
+/* Başlık */
+h1 {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* Buton stili */
+button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #21a1f1;
+  color: white;
+}
+
+/* Form inputları */
+input, select {
+  padding: 10px 15px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1.5px solid #444c56;
+  background-color: #20262e;
+  color: #e0e0e0;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #61dafb;
+}
+
+/* Liste elemanları */
+.list-item {
+  background-color: #20262e;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.7);
+  color: #cfd8dc;
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
